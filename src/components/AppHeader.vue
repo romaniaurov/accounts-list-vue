@@ -22,9 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { useRecordsStore } from '../../core/store';
+import { useRecordsStore } from '../core/store';
 
 const { addNewRecord } = useRecordsStore();
 </script>
-
-<style lang="scss"></style>

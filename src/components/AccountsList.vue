@@ -20,8 +20,8 @@
 </template>
 
 <script setup lang="ts">
-import AccountForm from '../AccountForm/AccountForm.vue';
-import { useRecordsStore } from '../../core/store';
+import AccountForm from './AccountForm.vue';
+import { useRecordsStore } from '../core/store';
 
 const recordsStore = useRecordsStore();
 </script>
